@@ -1,0 +1,17 @@
+.form {
+
+  &__input {
+    background-color: var(--bg-dark);
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--light-color);
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  &__input-contact {
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--bg-dark);
+    width: 100%;
+    padding-top: 25px;
+  }
+}

@@ -1,0 +1,80 @@
+.customers {
+  background-color: var(--bg-dark);
+
+  &__wrapper {
+    padding-left: max(15px, calc((15% - var(--content-width)) / 2));
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  &__content {
+    margin-bottom: 75px;
+  }
+
+  &__title {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: 0.03em;
+    color: var(--light-color);
+    margin: 0;
+    padding: 100px 0 80px 162px;
+  }
+
+  .swiper-slide {
+    width: auto;
+    margin-right: 40px;
+    max-width: 1440px;
+  }
+
+  .swiper-scrollbar-drag {
+    background-color: var(--light-color);
+  }
+
+  &__image {
+    margin-bottom: 20px;
+    height: 385px;
+  }
+
+
+  &__btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--accent-color);
+  }
+
+  &__nav {
+    @include flex-all-sb;
+  }
+
+  &__scroll {
+    border-radius: 40px;
+    width: 360px;
+    height: 5px;
+    background: var(--dark-gray-color);
+  }
+
+  &__btns {
+    @include flex-v-center;
+  }
+
+  &__slider-btn {
+
+    width: 53px;
+    height: 29px;
+
+    &--prev {
+      background-image: url("../img/prev.svg");
+    }
+
+    &--next {
+      background-image: url("../img/next.svg");
+    }
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+}

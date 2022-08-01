@@ -1,0 +1,22 @@
+.social {
+
+  &__list {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  &__item {
+
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &__image {
+    fill: var(--light-color);
+    width: 35px;
+    height: 35px;
+  }
+}

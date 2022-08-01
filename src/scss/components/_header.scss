@@ -1,0 +1,54 @@
+.header {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+
+  &__container {
+    @include flex-all-sb;
+    background-image: linear-gradient(to right, #fff 55%, #272727 0%);
+    padding: 70px 90px 0 90px;
+  }
+
+  &__profile {
+    display: inline-flex;
+    margin-left: auto;
+  }
+  &__hearth {
+    margin-right: 30px;
+    margin-left: auto;
+    width: 22px;
+    height: 23px;
+    font-size: 0;
+    border: none;
+    background-image: url("../img/hearth.svg");
+    background-position: center;
+    background-size: 22px 19px;
+    background-repeat: no-repeat;
+  }
+
+  &__lk {
+    margin-right: 30px;
+    margin-left: auto;
+    width: 13px;
+    height: 20px;
+    font-size: 0;
+    border: none;
+    background-image: url("../img/lk.svg");
+    background-position: center;
+    background-size: 13px 20px;
+    background-repeat: no-repeat;
+  }
+
+  &__password {
+    margin-right: 30px;
+    margin-left: auto;
+    width: 36px;
+    height: 19px;
+    font-size: 0;
+    border: none;
+    background-image: url("../img/password.svg");
+    background-position: center;
+    background-size: 30px 24px;
+    background-repeat: no-repeat;
+  }
+}

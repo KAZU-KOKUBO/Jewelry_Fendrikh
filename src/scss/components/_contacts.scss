@@ -1,0 +1,43 @@
+.contacts {
+
+  &__container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__info {
+    margin: 0 auto;
+  }
+
+  &__title {
+    padding: 180px 0 0 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &__phone {
+    display: flex;
+    padding-top: 30px;
+    color: var(--gray-color);
+
+  }
+
+  &__news {
+    font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+padding-top: 110px;
+  }
+}

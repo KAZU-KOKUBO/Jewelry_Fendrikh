@@ -1,0 +1,42 @@
+.hero {
+
+  &__container {
+    background-image: linear-gradient(to right, #fff 55%, #272727 0%);
+    padding: 0 60px 0 90px;
+  }
+
+  &__content {
+    padding: 326px 0 0 0;
+    display: flex;
+    max-width: 970px;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 17%;
+
+    &-text {
+      font-family: 'Segoe UI';
+      font-style: italic;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 24px;
+      display: flex;
+      padding-top: 50px;
+    }
+
+    &-svg {
+      fill: var(--dark-color);
+      color: var(--dark-color);
+      width: 130px;
+      height: 2px;
+    }
+  }
+}
